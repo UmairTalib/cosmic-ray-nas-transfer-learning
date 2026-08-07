@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Regeneratable caches produced by the predictor scripts
+# (rebuilt automatically on first run — see each task's README)
+nb201_cache*.npz
+nb201_cache*.npy
+nb201_cache*.pkl
+nb201_*_naslib.npy
+nb201_*_naslib.pkl
+*.npy
+*.npz
+
+# Trained model checkpoints (regenerate by re-running the scripts)
+*.pth
+*.pt
+
+# External datasets — see README.md "Data" section for download instructions.
+# These are NOT vendored in this repository (Cosmic ~8GB used subset / 58GB
+# full; NATS-tss ~1GB; NAS-Bench-201 full weight archive ~360GB).
+Cosmic/
+NATS-tss*/
+naslib/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# LaTeX build artifacts (poster)
+report/poster/*.aux
+report/poster/*.log
+report/poster/*.out
+report/poster/*.synctex.gz
+report/poster/*.fls
+report/poster/*.fdb_latexmk

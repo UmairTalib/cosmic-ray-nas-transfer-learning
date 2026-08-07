@@ -1,0 +1,450 @@
+{
+  "n_sampled": 300,
+  "n_top_per_ds": 10,
+  "train_size": 1024,
+  "results": {
+    "cifar10": {
+      "ds_label": "CIFAR-10",
+      "train_size": 1024,
+      "n_sampled": 300,
+      "top10": [
+        {
+          "rank": 1,
+          "nats_idx": 14289,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|skip_connect~1|+|avg_pool_3x3~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+          "encoding": "3-3-S-P-1-3",
+          "predicted_acc": 91.9412465959081,
+          "true_acc": 89.33
+        },
+        {
+          "rank": 2,
+          "nats_idx": 10004,
+          "arch_str": "|none~0|+|nor_conv_3x3~0|skip_connect~1|+|nor_conv_3x3~0|avg_pool_3x3~1|nor_conv_3x3~2|",
+          "encoding": "N-3-S-3-P-3",
+          "predicted_acc": 91.69060998702531,
+          "true_acc": 89.19
+        },
+        {
+          "rank": 3,
+          "nats_idx": 2658,
+          "arch_str": "|nor_conv_3x3~0|+|skip_connect~0|skip_connect~1|+|none~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "3-S-S-N-3-3",
+          "predicted_acc": 91.72156474434915,
+          "true_acc": 88.96
+        },
+        {
+          "rank": 4,
+          "nats_idx": 5204,
+          "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|nor_conv_3x3~1|+|skip_connect~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+          "encoding": "1-S-3-S-1-3",
+          "predicted_acc": 90.80029592299849,
+          "true_acc": 89.95
+        },
+        {
+          "rank": 5,
+          "nats_idx": 8993,
+          "arch_str": "|skip_connect~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+          "encoding": "S-3-3-3-3-1",
+          "predicted_acc": 90.59223770613093,
+          "true_acc": 89.36
+        },
+        {
+          "rank": 6,
+          "nats_idx": 8002,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|skip_connect~0|avg_pool_3x3~1|nor_conv_1x1~2|",
+          "encoding": "3-3-3-S-P-1",
+          "predicted_acc": 91.01841876461397,
+          "true_acc": 91.2
+        },
+        {
+          "rank": 7,
+          "nats_idx": 14255,
+          "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|none~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "1-S-N-3-3-3",
+          "predicted_acc": 90.64462935228934,
+          "true_acc": 88.81
+        },
+        {
+          "rank": 8,
+          "nats_idx": 14410,
+          "arch_str": "|nor_conv_3x3~0|+|none~0|none~1|+|nor_conv_1x1~0|nor_conv_3x3~1|none~2|",
+          "encoding": "3-N-N-1-3-N",
+          "predicted_acc": 91.6534716416904,
+          "true_acc": 89.23
+        },
+        {
+          "rank": 9,
+          "nats_idx": 9448,
+          "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|skip_connect~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "1-S-S-3-3-3",
+          "predicted_acc": 90.59857598434586,
+          "true_acc": 89.21
+        },
+        {
+          "rank": 10,
+          "nats_idx": 137,
+          "arch_str": "|skip_connect~0|+|nor_conv_3x3~0|avg_pool_3x3~1|+|skip_connect~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "S-3-P-S-3-3",
+          "predicted_acc": 91.18658129000089,
+          "true_acc": 89.69
+        }
+      ]
+    },
+    "cifar100": {
+      "ds_label": "CIFAR-100",
+      "train_size": 1024,
+      "n_sampled": 300,
+      "top10": [
+        {
+          "rank": 1,
+          "nats_idx": 9448,
+          "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|skip_connect~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "1-S-S-3-3-3",
+          "predicted_acc": 72.01162008532755,
+          "true_acc": 69.46000002441406
+        },
+        {
+          "rank": 2,
+          "nats_idx": 8993,
+          "arch_str": "|skip_connect~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+          "encoding": "S-3-3-3-3-1",
+          "predicted_acc": 71.68954237689323,
+          "true_acc": 68.66
+        },
+        {
+          "rank": 3,
+          "nats_idx": 14289,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|skip_connect~1|+|avg_pool_3x3~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+          "encoding": "3-3-S-P-1-3",
+          "predicted_acc": 72.69232158327901,
+          "true_acc": 70.11999998779297
+        },
+        {
+          "rank": 4,
+          "nats_idx": 7632,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+          "encoding": "3-3-3-3-3-1",
+          "predicted_acc": 71.21163266453554,
+          "true_acc": 70.36000006103515
+        },
+        {
+          "rank": 5,
+          "nats_idx": 14255,
+          "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|none~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "1-S-N-3-3-3",
+          "predicted_acc": 71.94721144947114,
+          "true_acc": 69.0799998779297
+        },
+        {
+          "rank": 6,
+          "nats_idx": 2870,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|skip_connect~0|nor_conv_1x1~1|skip_connect~2|",
+          "encoding": "3-3-1-S-1-S",
+          "predicted_acc": 71.28721364500201,
+          "true_acc": 71.05999991455079
+        },
+        {
+          "rank": 7,
+          "nats_idx": 10436,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "3-1-3-1-3-3",
+          "predicted_acc": 71.58526082490889,
+          "true_acc": 72.04
+        },
+        {
+          "rank": 8,
+          "nats_idx": 7335,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_3x3~0|nor_conv_1x1~1|nor_conv_1x1~2|",
+          "encoding": "3-3-1-3-1-1",
+          "predicted_acc": 70.91088940923089,
+          "true_acc": 71.45999993896484
+        },
+        {
+          "rank": 9,
+          "nats_idx": 2352,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|avg_pool_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+          "encoding": "3-1-3-P-3-1",
+          "predicted_acc": 72.12568304607137,
+          "true_acc": 70.91999996337891
+        },
+        {
+          "rank": 10,
+          "nats_idx": 2658,
+          "arch_str": "|nor_conv_3x3~0|+|skip_connect~0|skip_connect~1|+|none~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "3-S-S-N-3-3",
+          "predicted_acc": 72.00700641724946,
+          "true_acc": 68.69999993896485
+        }
+      ]
+    },
+    "ImageNet16-120": {
+      "ds_label": "ImageNet16-120",
+      "train_size": 1024,
+      "n_sampled": 300,
+      "top10": [
+        {
+          "rank": 1,
+          "nats_idx": 10436,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "3-1-3-1-3-3",
+          "predicted_acc": 46.808438454602445,
+          "true_acc": 45.166666524251305
+        },
+        {
+          "rank": 2,
+          "nats_idx": 5115,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "3-3-1-1-3-3",
+          "predicted_acc": 45.316229605667026,
+          "true_acc": 43.79999994913737
+        },
+        {
+          "rank": 3,
+          "nats_idx": 9448,
+          "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|skip_connect~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+          "encoding": "1-S-S-3-3-3",
+          "predicted_acc": 45.38947285194686,
+          "true_acc": 43.866666544596356
+        },
+        {
+          "rank": 4,
+          "nats_idx": 8993,
+          "arch_str": "|skip_connect~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+          "encoding": "S-3-3-3-3-1",
+          "predicted_acc": 44.9082163110058,
+          "true_acc": 41.966666636149085
+        },
+        {
+          "rank": 5,
+          "nats_idx": 3275,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|none~1|+|nor_conv_1x1~0|nor_conv_3x3~1|skip_connect~2|",
+          "encoding": "3-3-N-1-3-S",
+          "predicted_acc": 45.80010162419825,
+          "true_acc": 45.89999986775716
+        },
+        {
+          "rank": 6,
+          "nats_idx": 2870,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|skip_connect~0|nor_conv_1x1~1|skip_connect~2|",
+          "encoding": "3-3-1-S-1-S",
+          "predicted_acc": 45.38062719749279,
+          "true_acc": 43.8666667175293
+        },
+        {
+          "rank": 7,
+          "nats_idx": 3990,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_3x3~0|none~1|nor_conv_1x1~2|",
+          "encoding": "3-1-3-3-N-1",
+          "predicted_acc": 45.48532793230271,
+          "true_acc": 43.666666666666664
+        },
+        {
+          "rank": 8,
+          "nats_idx": 5204,
+          "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|nor_conv_3x3~1|+|skip_connect~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+          "encoding": "1-S-3-S-1-3",
+          "predicted_acc": 46.14104480686204,
+          "true_acc": 43.9000000406901
+        },
+        {
+          "rank": 9,
+          "nats_idx": 7335,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_3x3~0|nor_conv_1x1~1|nor_conv_1x1~2|",
+          "encoding": "3-3-1-3-1-1",
+          "predicted_acc": 44.753251407871076,
+          "true_acc": 45.03333321126302
+        },
+        {
+          "rank": 10,
+          "nats_idx": 14289,
+          "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|skip_connect~1|+|avg_pool_3x3~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+          "encoding": "3-3-S-P-1-3",
+          "predicted_acc": 45.5143455500086,
+          "true_acc": 42.43333338419596
+        }
+      ]
+    }
+  },
+  "finetune_list": [
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 14289,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|skip_connect~1|+|avg_pool_3x3~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+      "encoding": "3-3-S-P-1-3"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 10004,
+      "arch_str": "|none~0|+|nor_conv_3x3~0|skip_connect~1|+|nor_conv_3x3~0|avg_pool_3x3~1|nor_conv_3x3~2|",
+      "encoding": "N-3-S-3-P-3"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 2658,
+      "arch_str": "|nor_conv_3x3~0|+|skip_connect~0|skip_connect~1|+|none~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-S-S-N-3-3"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 5204,
+      "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|nor_conv_3x3~1|+|skip_connect~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+      "encoding": "1-S-3-S-1-3"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 8993,
+      "arch_str": "|skip_connect~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "S-3-3-3-3-1"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 8002,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|skip_connect~0|avg_pool_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-3-3-S-P-1"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 14255,
+      "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|none~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "1-S-N-3-3-3"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 14410,
+      "arch_str": "|nor_conv_3x3~0|+|none~0|none~1|+|nor_conv_1x1~0|nor_conv_3x3~1|none~2|",
+      "encoding": "3-N-N-1-3-N"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 9448,
+      "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|skip_connect~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "1-S-S-3-3-3"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 137,
+      "arch_str": "|skip_connect~0|+|nor_conv_3x3~0|avg_pool_3x3~1|+|skip_connect~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "S-3-P-S-3-3"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 9448,
+      "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|skip_connect~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "1-S-S-3-3-3"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 8993,
+      "arch_str": "|skip_connect~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "S-3-3-3-3-1"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 14289,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|skip_connect~1|+|avg_pool_3x3~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+      "encoding": "3-3-S-P-1-3"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 7632,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-3-3-3-3-1"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 14255,
+      "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|none~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "1-S-N-3-3-3"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 2870,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|skip_connect~0|nor_conv_1x1~1|skip_connect~2|",
+      "encoding": "3-3-1-S-1-S"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 10436,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-1-3-1-3-3"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 7335,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_3x3~0|nor_conv_1x1~1|nor_conv_1x1~2|",
+      "encoding": "3-3-1-3-1-1"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 2352,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|avg_pool_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-1-3-P-3-1"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 2658,
+      "arch_str": "|nor_conv_3x3~0|+|skip_connect~0|skip_connect~1|+|none~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-S-S-N-3-3"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 10436,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-1-3-1-3-3"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 5115,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-3-1-1-3-3"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 9448,
+      "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|skip_connect~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "1-S-S-3-3-3"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 8993,
+      "arch_str": "|skip_connect~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "S-3-3-3-3-1"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 3275,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|none~1|+|nor_conv_1x1~0|nor_conv_3x3~1|skip_connect~2|",
+      "encoding": "3-3-N-1-3-S"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 2870,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|skip_connect~0|nor_conv_1x1~1|skip_connect~2|",
+      "encoding": "3-3-1-S-1-S"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 3990,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_3x3~0|none~1|nor_conv_1x1~2|",
+      "encoding": "3-1-3-3-N-1"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 5204,
+      "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|nor_conv_3x3~1|+|skip_connect~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+      "encoding": "1-S-3-S-1-3"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 7335,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_3x3~0|nor_conv_1x1~1|nor_conv_1x1~2|",
+      "encoding": "3-3-1-3-1-1"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 14289,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|skip_connect~1|+|avg_pool_3x3~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+      "encoding": "3-3-S-P-1-3"
+    }
+  ]
+}

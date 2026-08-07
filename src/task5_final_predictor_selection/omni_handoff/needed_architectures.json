@@ -1,0 +1,162 @@
+{
+  "unique_architectures": 18,
+  "finetune_runs": 30,
+  "architectures": [
+    {
+      "nats_idx": 137,
+      "file": "000137.pickle.pbz2",
+      "encoding": "S-3-P-S-3-3",
+      "datasets": [
+        "cifar10"
+      ]
+    },
+    {
+      "nats_idx": 2352,
+      "file": "002352.pickle.pbz2",
+      "encoding": "3-1-3-P-3-1",
+      "datasets": [
+        "cifar100"
+      ]
+    },
+    {
+      "nats_idx": 2658,
+      "file": "002658.pickle.pbz2",
+      "encoding": "3-S-S-N-3-3",
+      "datasets": [
+        "cifar10",
+        "cifar100"
+      ]
+    },
+    {
+      "nats_idx": 2870,
+      "file": "002870.pickle.pbz2",
+      "encoding": "3-3-1-S-1-S",
+      "datasets": [
+        "cifar100",
+        "ImageNet16-120"
+      ]
+    },
+    {
+      "nats_idx": 3275,
+      "file": "003275.pickle.pbz2",
+      "encoding": "3-3-N-1-3-S",
+      "datasets": [
+        "ImageNet16-120"
+      ]
+    },
+    {
+      "nats_idx": 3990,
+      "file": "003990.pickle.pbz2",
+      "encoding": "3-1-3-3-N-1",
+      "datasets": [
+        "ImageNet16-120"
+      ]
+    },
+    {
+      "nats_idx": 5115,
+      "file": "005115.pickle.pbz2",
+      "encoding": "3-3-1-1-3-3",
+      "datasets": [
+        "ImageNet16-120"
+      ]
+    },
+    {
+      "nats_idx": 5204,
+      "file": "005204.pickle.pbz2",
+      "encoding": "1-S-3-S-1-3",
+      "datasets": [
+        "cifar10",
+        "ImageNet16-120"
+      ]
+    },
+    {
+      "nats_idx": 7335,
+      "file": "007335.pickle.pbz2",
+      "encoding": "3-3-1-3-1-1",
+      "datasets": [
+        "cifar100",
+        "ImageNet16-120"
+      ]
+    },
+    {
+      "nats_idx": 7632,
+      "file": "007632.pickle.pbz2",
+      "encoding": "3-3-3-3-3-1",
+      "datasets": [
+        "cifar100"
+      ]
+    },
+    {
+      "nats_idx": 8002,
+      "file": "008002.pickle.pbz2",
+      "encoding": "3-3-3-S-P-1",
+      "datasets": [
+        "cifar10"
+      ]
+    },
+    {
+      "nats_idx": 8993,
+      "file": "008993.pickle.pbz2",
+      "encoding": "S-3-3-3-3-1",
+      "datasets": [
+        "cifar10",
+        "cifar100",
+        "ImageNet16-120"
+      ]
+    },
+    {
+      "nats_idx": 9448,
+      "file": "009448.pickle.pbz2",
+      "encoding": "1-S-S-3-3-3",
+      "datasets": [
+        "cifar10",
+        "cifar100",
+        "ImageNet16-120"
+      ]
+    },
+    {
+      "nats_idx": 10004,
+      "file": "010004.pickle.pbz2",
+      "encoding": "N-3-S-3-P-3",
+      "datasets": [
+        "cifar10"
+      ]
+    },
+    {
+      "nats_idx": 10436,
+      "file": "010436.pickle.pbz2",
+      "encoding": "3-1-3-1-3-3",
+      "datasets": [
+        "cifar100",
+        "ImageNet16-120"
+      ]
+    },
+    {
+      "nats_idx": 14255,
+      "file": "014255.pickle.pbz2",
+      "encoding": "1-S-N-3-3-3",
+      "datasets": [
+        "cifar10",
+        "cifar100"
+      ]
+    },
+    {
+      "nats_idx": 14289,
+      "file": "014289.pickle.pbz2",
+      "encoding": "3-3-S-P-1-3",
+      "datasets": [
+        "cifar10",
+        "cifar100",
+        "ImageNet16-120"
+      ]
+    },
+    {
+      "nats_idx": 14410,
+      "file": "014410.pickle.pbz2",
+      "encoding": "3-N-N-1-3-N",
+      "datasets": [
+        "cifar10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+The `NATS-tss-v1_0-3ffb9-full.tar` is split into 12 files as follows:
+
+NATS-tss-v1_0-3ffb9-full.taraa : 375c7a2ff69e163f9a6935272f53eabd
+NATS-tss-v1_0-3ffb9-full.tarab : 28a2318a8c71b02a80fafb96862e8d83
+NATS-tss-v1_0-3ffb9-full.tarac : fd9f09ad9e5f599d8906c58109f855d2
+NATS-tss-v1_0-3ffb9-full.tarad : ad007f6651b3fe57d19046400c8b2323
+NATS-tss-v1_0-3ffb9-full.tarae : efe0bcaaadb572786130eda3d97309a6
+NATS-tss-v1_0-3ffb9-full.taraf : d5a7eb0e5c22cd846e01f65928370634
+NATS-tss-v1_0-3ffb9-full.tarag : 4166af0d028f04b7c9791bb5251f3c9c
+NATS-tss-v1_0-3ffb9-full.tarah : 2a0864c366e92dda961a1cd02dc776e0
+NATS-tss-v1_0-3ffb9-full.tarai : c956fcda08f840e8c572bebca05c8254
+NATS-tss-v1_0-3ffb9-full.taraj : ec4cca509cf0c5ccabc4638d165c1b7a
+NATS-tss-v1_0-3ffb9-full.tarak : 788fffecdda843873c68b21c5f2bfe0a
+NATS-tss-v1_0-3ffb9-full.taral : d803f30b2f2e5a3aecfee14c8dea1bf9

@@ -1,0 +1,245 @@
+{
+  "results": [
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 3692,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|none~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-1-3-N-3-3",
+      "val_auroc": 0.9509717950065139,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 5115,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-3-1-1-3-3",
+      "val_auroc": 0.9439068351621822,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 10436,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-1-3-1-3-3",
+      "val_auroc": 0.9396205178771542,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 7632,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-3-3-3-3-1",
+      "val_auroc": 0.9522652276287455,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 1848,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|avg_pool_3x3~1|+|none~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-3-P-N-3-3",
+      "val_auroc": 0.9676714716677461,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 2352,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|avg_pool_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-1-3-P-3-1",
+      "val_auroc": 0.9590665268464047,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 2658,
+      "arch_str": "|nor_conv_3x3~0|+|skip_connect~0|skip_connect~1|+|none~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-S-S-N-3-3",
+      "val_auroc": 0.9645223560949598,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 13672,
+      "arch_str": "|none~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_3x3~0|none~1|nor_conv_3x3~2|",
+      "encoding": "N-3-1-3-N-3",
+      "val_auroc": 0.9644077448367897,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 8993,
+      "arch_str": "|skip_connect~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "S-3-3-3-3-1",
+      "val_auroc": 0.9630203909984972,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar10",
+      "nats_idx": 1869,
+      "arch_str": "|nor_conv_3x3~0|+|avg_pool_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-P-3-3-3-1",
+      "val_auroc": 0.9570185387823954,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 5115,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-3-1-1-3-3",
+      "val_auroc": 0.9541163918396256,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 10436,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-1-3-1-3-3",
+      "val_auroc": 0.9424034108698378,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 3692,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|none~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-1-3-N-3-3",
+      "val_auroc": 0.9246757778824856,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 7632,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-3-3-3-3-1",
+      "val_auroc": 0.9441856138397637,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 2352,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|avg_pool_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-1-3-P-3-1",
+      "val_auroc": 0.9692562186036446,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 7335,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_3x3~0|nor_conv_1x1~1|nor_conv_1x1~2|",
+      "encoding": "3-3-1-3-1-1",
+      "val_auroc": 0.9396258806419862,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 3990,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_3x3~0|none~1|nor_conv_1x1~2|",
+      "encoding": "3-1-3-3-N-1",
+      "val_auroc": 0.9603264825493714,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 13019,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|avg_pool_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-1-P-3-3-1",
+      "val_auroc": 0.9518687600869775,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 10073,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|avg_pool_3x3~1|+|nor_conv_3x3~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+      "encoding": "3-1-P-3-1-3",
+      "val_auroc": 0.9598940885314784,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "cifar100",
+      "nats_idx": 1869,
+      "arch_str": "|nor_conv_3x3~0|+|avg_pool_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-P-3-3-3-1",
+      "val_auroc": 0.9544490387178972,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 10436,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-1-3-1-3-3",
+      "val_auroc": 0.960322261704887,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 5115,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_1x1~0|nor_conv_3x3~1|nor_conv_3x3~2|",
+      "encoding": "3-3-1-1-3-3",
+      "val_auroc": 0.9600168015840167,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 2352,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|avg_pool_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-1-3-P-3-1",
+      "val_auroc": 0.9652601938841382,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 7632,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_3x3~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "3-3-3-3-3-1",
+      "val_auroc": 0.972038623634918,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 5204,
+      "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|nor_conv_3x3~1|+|skip_connect~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+      "encoding": "1-S-3-S-1-3",
+      "val_auroc": 0.9726000528048707,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 10073,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|avg_pool_3x3~1|+|nor_conv_3x3~0|nor_conv_1x1~1|nor_conv_3x3~2|",
+      "encoding": "3-1-P-3-1-3",
+      "val_auroc": 0.9498441604347306,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 3275,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|none~1|+|nor_conv_1x1~0|nor_conv_3x3~1|skip_connect~2|",
+      "encoding": "3-3-N-1-3-S",
+      "val_auroc": 0.9594469429765791,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 7335,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_3x3~0|nor_conv_1x1~1|+|nor_conv_3x3~0|nor_conv_1x1~1|nor_conv_1x1~2|",
+      "encoding": "3-3-1-3-1-1",
+      "val_auroc": 0.9305368865058643,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 3990,
+      "arch_str": "|nor_conv_3x3~0|+|nor_conv_1x1~0|nor_conv_3x3~1|+|nor_conv_3x3~0|none~1|nor_conv_1x1~2|",
+      "encoding": "3-1-3-3-N-1",
+      "val_auroc": 0.9553458256594469,
+      "status": "ok"
+    },
+    {
+      "source_dataset": "ImageNet16-120",
+      "nats_idx": 14499,
+      "arch_str": "|nor_conv_1x1~0|+|skip_connect~0|skip_connect~1|+|nor_conv_3x3~0|nor_conv_3x3~1|nor_conv_1x1~2|",
+      "encoding": "1-S-S-3-3-1",
+      "val_auroc": 0.9584226091264306,
+      "status": "ok"
+    }
+  ],
+  "n_complete": 30
+}

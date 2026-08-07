@@ -1,0 +1,47 @@
+# =============================================================================
+# Requirements for this repository (Python 3.8+)
+#
+# INSTALL ORDER
+#   1) Install PyTorch matching your machine's CUDA version (or CPU-only):
+#        pip install torch==2.4.1 torchvision==0.19.1 \
+#            --index-url https://download.pytorch.org/whl/cu124
+#        (swap cu124 for cu121 / cu118 / cpu to match your setup)
+#   2) pip install -r requirements.txt
+#   3) Install XAutoDL (provides get_cell_based_tiny_net used to build
+#      NAS-Bench-201 backbones): pip install xautodl
+#      or from source: https://github.com/D-X-Y/AutoDL-Projects
+#
+# NOTE: the fine-tuning scripts (task*/step3_finetune.py) only need torch,
+# torchvision, numpy, scipy, scikit-learn, matplotlib, pillow, tqdm, xautodl.
+# NASLib / nats-bench / xgboost are only needed to reproduce the step1
+# predictor experiments.
+# =============================================================================
+
+# ---- core -------------------------------------------------------------------
+numpy==1.23.5
+scipy==1.9.3
+scikit-learn==1.0.2
+matplotlib==3.7.5
+pillow==10.4.0
+tqdm==4.61.1
+pyyaml==5.4.1
+
+# ---- xautodl dependencies (backbone builder) --------------------------------
+fvcore==0.1.5.post20210630
+iopath==0.1.10
+yacs==0.1.8
+termcolor==2.4.0
+tabulate==0.9.0
+
+# ---- predictor experiments (step1_predictor.py, evolutionary_search.py) -----
+xgboost==1.4.2
+nats-bench==1.8
+pandas==2.0.3
+joblib==1.4.2
+threadpoolctl==3.5.0
+
+# ---- NAS-Bench-201 backbone builder ------------------------------------------
+xautodl
+
+# ---- NASLib (only needed to reproduce task5's predictor ground truth) -------
+# pip install -e git+https://github.com/automl/NASLib.git@8cb5d2ba1e29784de43039d9824c68e88fb1a1da#egg=naslib
