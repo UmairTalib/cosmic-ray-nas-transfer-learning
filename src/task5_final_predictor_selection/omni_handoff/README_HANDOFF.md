@@ -1,6 +1,6 @@
 # Omni-Cluster Handoff — NAS-Bench-201 Weights for RAML Task 5
 
-**For:** the colleague setting up the download on the Omni cluster (Uni Siegen)
+**For:** cluster setup and download on the Omni cluster (Uni Siegen)
 **Goal:** obtain the trained NAS-Bench-201 weights for **18 specific architectures**
 and send back ~30 small weight files (a few tens of MB total).
 

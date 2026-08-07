@@ -2,7 +2,7 @@
 
 **Status: results already reported in [`../report/RAML_Final_Report.pdf`](../report/RAML_Final_Report.pdf) — code/artifacts to be added here.**
 
-This directory is reserved for Umair's contribution: the work executed on the
+This directory contains the definitive fine-tuning results: the work executed on the
 University of Siegen Omni HPC cluster that produced the project's definitive
 results.
 

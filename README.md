@@ -74,7 +74,7 @@ source datasets:
 │   ├── task3_transfer_prototype/          First transfer-learning experiment + predictor + evolutionary search prototype
 │   ├── task4_full_pipeline_v1/            First full-scale attempt (XGBoost predictor; superseded by task5)
 │   └── task5_final_predictor_selection/   Final predictor (9/9 targets, SVR ensemble) + architecture selection
-├── results_omni_cluster/                  Definitive fine-tuning (Umair's contribution — see its README)
+├── results_omni_cluster/                  Definitive fine-tuning
 ├── docs/                                  In-depth technical explanations (predictor, random search, surrogate models)
 └── assets/                                Diagrams used in this README
 ```
