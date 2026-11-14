@@ -36,9 +36,14 @@ The pipeline has three stages:
 ![Pipeline overview](assets/fig_pipeline.png)
 
 **Result:** all 30 fine-tuned networks, using genuine NAS-Bench-201 pre-trained
-weights, reach AUROC between **0.976 and 0.989** (mean 0.985) — exceeding every
-from-scratch NAS-Bench-360 baseline reported for this task. Full details, tables,
-and discussion are in [`report/RAML_Final_Report.pdf`](report/RAML_Final_Report.pdf).
+weights, reach a best validation AUROC between **0.976 and 0.989** (mean 0.985).
+NAS-Bench-360 reports false-negative rates rather than AUROC for this task, so the
+report compares our runs with its from-scratch baselines only qualitatively
+(Section 5). Full details, tables, and discussion are in
+[`report/RAML_Final_Report.pdf`](report/RAML_Final_Report.pdf).
+
+The table summarises, per source dataset, the best validation AUROC that each
+run reached over the Phase 2 fine-tuning epochs (report, Table 2).
 
 | Source dataset | Mean AUROC | Max AUROC | Min AUROC |
 |---|---|---|---|
@@ -74,7 +79,7 @@ source datasets:
 │   ├── task3_transfer_prototype/          First transfer-learning experiment + predictor + evolutionary search prototype
 │   ├── task4_full_pipeline_v1/            First full-scale attempt (XGBoost predictor; superseded by task5)
 │   └── task5_final_predictor_selection/   Final predictor (9/9 targets, SVR ensemble) + architecture selection
-├── results_omni_cluster/                  Definitive fine-tuning
+├── results_omni_cluster/                  Definitive fine-tuning (results in the report; code and logs still to be added)
 ├── docs/                                  In-depth technical explanations (predictor, random search, surrogate models)
 └── assets/                                Diagrams used in this README
 ```
@@ -89,7 +94,7 @@ if you only want the final, working pipeline.
 ## Setup
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/UmairTalib/cosmic-ray-nas-transfer-learning.git
 cd cosmic-ray-nas-transfer-learning
 
 # 1. PyTorch matching your CUDA version (or CPU-only)
@@ -121,7 +126,9 @@ python src/task5_final_predictor_selection/step2_random_search.py  # ~1 min
 
 # Fine-tuning: local baseline (random init) vs. the definitive cluster run
 python src/task5_final_predictor_selection/step3_finetune.py    # ~4-5h GPU, random-init baseline
-# The definitive run (genuine pre-trained weights, Omni HPC cluster) is in results_omni_cluster/
+# The definitive run (genuine pre-trained weights, Omni HPC cluster) is reported in
+# report/RAML_Final_Report.pdf; its code and logs are not in this repository yet
+# (see results_omni_cluster/README.md)
 ```
 
 ---
